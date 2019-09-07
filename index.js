@@ -23,7 +23,7 @@ function connectPG(){
 var client = null
 function connectHeruku(){
     client = new Client({
-        connectionString: "postgres://ykivkgdyulhufk:4d7a42853cce3e3ffc5cd1a90a7f065dac6b39d3ab7398e414523458cd12a11d@ec2-54-83-9-36.compute-1.amazonaws.com:5432/dc70rv58a5kbtb",
+        connectionString: "postgres://xediuqruedbglt:d08ef8a0864d91b3f406709fe3c5f6ac4dc1c8b6bf389eb8bd0edc7365d2457f@ec2-23-21-148-223.compute-1.amazonaws.com:5432/d518t1utp6ndsi",
         ssl: true,
       });
       client.connect();
